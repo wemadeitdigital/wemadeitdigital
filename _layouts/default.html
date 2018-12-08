@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  {% include head.html %}
+  <body>
+    <div id="wrapper">
+        <div class='thetop'></div>
+        {% include header.html %}
+        <div class="container-fluid" id="main-container">
+          {{content}}
+        </div>
+        {% include footer.html %} 
+        <div class='scrolltop'>
+            <div class='scroll icon'><i class="fa fa-4x fa-angle-up"></i></div>
+        </div>
+    </div>
+    {% include javascript.html %}
+  </body>
+</html>

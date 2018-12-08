@@ -1,0 +1,102 @@
+---
+layout: default
+---
+{% if page.image.path %}
+<div class="row jumbotron jumbotron-fluid" style="background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url({{page.image.path}});">
+{% else %}
+<div class="row jumbotron jumbotron-fluid">
+{% endif %}
+    <div class="container text-white text-center">
+      <h1 class="display-4">{% if page.details.top.title %}{{page.details.top.title}}{% else %}{{page.title}}{% endif %}</h1>
+      <p class="lead">{% if page.details.top.desc %}{{page.details.top.desc}}{% else %}{{page.description}}{% endif %}</p>
+    </div>
+</div>
+{% if page.details.blocks %}
+<div class="row p-t-30">
+    <div class="container text-center">
+        <h2 class="title">{{page.details.blocks.title}}</h2>
+    </div>
+</div>
+<div class="row usp-block">
+    {% for col in page.details.blocks.cols %}
+        <div class="col-sm-4 padded text-center responsive-text-small">
+            {% if col.image %}
+                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                 data-src="{{col.image}}" class="lazyload img-fluid col-image" alt="{{col.title}} image"/>
+            {% endif %}
+            <h2>
+                {{col.title}}
+            </h2>
+            <p class="responsive-text-small">
+                {{col.desc}}
+            </p>
+            {% if col.url %}
+            <p>
+                <a class="btn btn-primary" href="{{col.url}}">Learn More</a>
+            </p>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
+{% endif %}
+{% if page.details.tech %}
+<div class="row">
+    <div class="container text-center">
+        <h2 class="title">{{page.details.tech.title}}</h2>
+    </div>
+</div>
+<div class="row tech-block">
+    {% for col in page.details.tech.cols %}
+        <div class="col-sm-3 padded text-center responsive-text-small">
+            {% if col.image %}
+                <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                 data-src="{{col.image}}" class="lazyload img-fluid col-image" alt="{{col.title}} image"/>
+            {% endif %}
+            <h2>
+                {{col.title}}
+            </h2>
+            <p class="responsive-text-small">
+                {{col.desc}}
+            </p>
+            {% if col.url %}
+            <p>
+                <a class="btn btn-primary" href="{{col.url}}">Learn More</a>
+            </p>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
+{% endif %}
+{% if page.details.portfolio %}
+<div class="row">
+    <div class="container text-center">
+        <h2 class="title">{{page.details.portfolio.title}}</h2>
+    </div>
+</div>
+<div class="row portfolio-block p-t-30">
+    {% for col in page.details.portfolio.cols %}
+        {% if col.image %}
+            <div class="col-sm-4 bg-image-col no-padding text-center responsive-text-small ">
+                <div class="outer flex-container">
+                    <div class="bg-image darken lazyload" data-bg="{{col.image}}"></div>
+        {% else %}
+            <div class="col-sm-4 padded text-center responsive-text-small">
+        {% endif %}
+                <div class="inner flex-content">
+                    <h2>
+                        {{col.title}}
+                    </h2>
+                    <p class="responsive-text-small">
+                        {{col.desc}}
+                    </p>
+                    {% if col.url %}
+                    <p>
+                        <a class="btn btn-primary" href="{{col.url}}">Learn More</a>
+                    </p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endif %}

@@ -1,0 +1,51 @@
+locations: 
+   - Cambridge
+   - Ely
+   - Haverhill
+   - Withersfield
+   - Soham
+   - Newmarket
+   - Bury St Edmunds
+   - Sudbury
+   - Braintree
+   - Harlow
+   - Epping
+   - Milton
+   - Caxton
+   - Fulbourne
+   - Cherry Hinto
+   - Arbury
+   - Girton
+   - Trumpington
+   - Shelford
+   - Great Shelford
+   - Bar Hill
+   - Willingham
+   - Earth
+   - Swavesey
+   - Harston
+   - Royston
+services:
+   - text: Web Design
+     url: /websites/design/
+   - text: Static Websites
+     url: /websites/static-websites/
+   - text: Static Website CMS Systems
+     url: /websites/static-website-cms/
+   - text: Front End Development
+     url: /websites/front-end-development/
+   - text: Graphic Design
+     url: /graphic-design/
+   - text: Digital Art
+     url: /graphics/digitial-art/
+   - text: Events Marketing
+     url: /marketing/events/
+   - text: Social Media Management
+     url: /marketing/social-media-managment/
+   - text: WordPress Theme Development
+     url: /websites/wordpress-theme-development/
+   - text: Forum Design
+     url: /websites/forum-design/
+   - text: Logo Design
+     url: /graphic-design/logo-design/
+   

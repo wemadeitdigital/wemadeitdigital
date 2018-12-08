@@ -1,0 +1,52 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="row">
+        {% assign services = site.data.seo.services %}
+        {% assign locations = site.data.seo.locations %}
+      <div class="col-sm-6 col-md-3 center-sm">
+        <h3>Our Services</h3>
+        <ul class="services-list">
+          {% for service in services %}
+              <li>
+                <a href="{{service.url}}">
+                  {{service.text}}
+                </a>
+              </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="col-sm-6 col-md-3 center-sm">
+        <h3>Locations</h3>
+        <ul class="services-list">
+            {% for location in locations | limit: 10%}
+              <li>
+                   {{location}}
+              </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    <div class="row strip">
+      <div class="col-md-6 left center-sm">
+        <span class="text-muted text-light">&copy; {{ 'now' | date: "%Y" }} {{ site.title | escape }} - </span>
+        <ul class="social-media-list">
+            <li>
+              <a href="https://facebook.com">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i> 
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com">
+                <i class="fa fa-twitter" aria-hidden="true"></i> 
+              </a>
+            </li>
+            <li>
+              <a href="https://instagram.com">
+                <i class="fa fa-instagram" aria-hidden="true"></i> 
+              </a>
+            </li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</footer>
