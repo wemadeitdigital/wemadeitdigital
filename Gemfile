@@ -8,6 +8,7 @@ group :jekyll_plugins do
   gem 'autoprefixer-rails'
   gem 'jekyll-assets', '~> 3.0.12'
   gem 'therubyracer'
+  gem 'jekyll-seo-tag'
   gem 'minima'
   gem 'uglifier'
   gem 'jekyll-tidy' 

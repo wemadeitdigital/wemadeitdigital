@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: The Cambridge Design
-email: thecambridgedesign.co.uk
+title: We Made It Digital
+email: team@wemadeit.digital
 description: > # this means to ignore newlines until "baseurl:"
-  Official website for The Cambridge Design web/app development company.
+  A bleeding edge design agency based in Cambridge, UK helping startups, businesses and individuals make their ideas a reality.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://wemadeit.digital" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 

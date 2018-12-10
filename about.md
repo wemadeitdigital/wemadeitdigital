@@ -1,7 +1,17 @@
 ---
 layout: page
 title: About
+description: >-
+    WeMadeIt.Digital was founded to help startups and businesses of all kinds. Find out about the team that makes things digital.
 permalink: /about/
+image:
+    name: about-bg.jpg
+    bg_class: bg-up
+    path: /assets/images/about-bg.jpg
+seo:
+    name: About WeMadeIt.Digital
+    type: Organization
+    #links: 
 ---
 <div class="row">
 <div class="col-sm-4 text-center">
@@ -30,4 +40,13 @@ permalink: /about/
     </p>
 </div>
 
+<div class="col-sm-4 text-center">
+    <img class="img-fluid lazyload team" src="/assets/images/avatar1.png" 
+    data-src="" alt="Team member 1"/>
+    <h3>Graphics Designer</h3>
+    <p>
+        Our graphics designer studied art and digital graphic design at university and has over 10 years experience with the Adobe Creative Suite
+        and has worked for many top companies creating everything from logos to billboards.
+    </p>
+</div>
 </div>
