@@ -18,3 +18,4 @@ phases:
       - LANG="en_US.UTF-8" LC_ALL="en_US.UTF-8" bundle exec jekyll build
       - echo "******** Uploading to S3 ********"
       - aws s3 sync _site/ s3://wemadeit.digital
+      - aws cloudfront create-invalidation --distribution-id ETMVYQDERN3EO --paths "/*"
