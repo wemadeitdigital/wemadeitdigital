@@ -17,4 +17,4 @@ phases:
       - echo "*************** Building Jekyll Site ***************"
       - LANG="en_US.UTF-8" LC_ALL="en_US.UTF-8" bundle exec jekyll build
       - echo "******** Uploading to S3 ********"
-      - aws s3 sync _site/ s3://www.wemadeit.digital
+      - aws s3 sync _site/ s3://wemadeit.digital
