@@ -49,4 +49,12 @@ seo:
         and has worked for many top companies creating everything from logos to billboards.
     </p>
 </div>
+<div class="col-sm-4 text-center">
+    <img class="img-fluid lazyload team" src="/assets/images/avatar1.png" 
+    data-src="" alt="Team member 1"/>
+    <h3>Business Consultant</h3>
+    <p>
+        Our business consultant has over 30 years experience in negotiating deals with blue chip companies all over the world. 
+    </p>
+</div>
 </div>
