@@ -25,7 +25,7 @@ services:
     - Employee Training / Assertiveness Courses
     - Expert Tuition
 ---
-<form action="https://formspree.io/wemadeitdigital@gmail.com" method="POST">
+<form action="https://formspree.io/team@wemadeit.digital" method="POST">
   <div class="form-group">
     <label for="exampleFormControlInput1">Your Name</label>
     <input type="text" name="name" class="form-control form-control-lg" id="exampleFormControlInput1" placeholder="E.g Richard Branson">
