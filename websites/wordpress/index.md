@@ -1,21 +1,19 @@
 ---
 layout: page-extended
-title: Websites
+title: WordPress Websites
 description: >-
-    We have years of experience developing and maintaining websites of all kinds. Check out our portfolio and get in touch today!
-permalink: /websites/
+    WordPress is a great platform for allowing customers to manage their websites in a point and click (CMS) fashion. The only drawback to WordPress are the servers. We can help you maintain and update software on your WordPress server so you don't get hacked.
+permalink: /websites/wordpress/
 image:
   name: website-bg.jpg
   path: /assets/images/website-bg.jpg
 details:
     top:
-        title: Websites
+        title: WordPress Websites
         desc: >-
-            As of 2018 there are 4.2 billion internet users. Websites are a great way to bring in customers for your business/project. 
-            We can help you take an idea to reality. What's the point in waiting around and letting the years pass by? Get in touch today and let's
-            make this happen.
+            WordPress is a great platform for allowing customers to manage their websites in a point and click (CMS) fashion. The only drawback to WordPress are the servers. We can help you maintain and update software on your WordPress server so you don't get hacked.
     blocks: 
-        title: Static Websites are the way forward.
+        title: Keep it secure.
         cols: 
             - title: Cheap
               desc: >-

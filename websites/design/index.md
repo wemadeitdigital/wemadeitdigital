@@ -1,25 +1,23 @@
 ---
 layout: page-extended
-title: Websites
+title: Website Design
 description: >-
-    We have years of experience developing and maintaining websites of all kinds. Check out our portfolio and get in touch today!
-permalink: /websites/
+    We have expert knowledge when it comes to making websites interactive and feel modern, clean and crip. Have an design - we can put it on the web! Don't worry if not we will put you in touch with our graphics designers and help you work something out.
+permalink: /websites/design/
 image:
   name: website-bg.jpg
   path: /assets/images/website-bg.jpg
 details:
     top:
-        title: Websites
+        title: Website Design
         desc: >-
-            As of 2018 there are 4.2 billion internet users. Websites are a great way to bring in customers for your business/project. 
-            We can help you take an idea to reality. What's the point in waiting around and letting the years pass by? Get in touch today and let's
-            make this happen.
+            We have expert knowledge when it comes to making websites interactive and feel modern, clean and crip. Have an design - we can put it on the web! Don't worry if not we will put you in touch with our graphics designers and help you work something out.
     blocks: 
-        title: Static Websites are the way forward.
+        title: We make the web look good.
         cols: 
-            - title: Cheap
+            - title: CSS3 / Sass
               desc: >-
-                They are cheap to host as there is no dedicated server for your website and are instead distributed in the cloud so wherever you are in the world you get equal access. 
+                We have extensive knowledge on building cross-browser websites that look and feel just right. Sass helps us create amazing websites quicker than ever before. We work hard and efficiently - that's why sass suits!
             - title: Security
               desc: >-
                Don't be prone to hacking a choose a static website. With a static website you don't need to worry hackers taking down your website as there is nothing to take down. If your website goes down so has millions of others!
@@ -29,10 +27,10 @@ details:
     tech: 
         title: Technology.
         cols: 
-            - title: Amazon Web Services
-              image: /assets/images/aws.png
+            - title: 
+              image: /assets/images/sass.png
               desc: >-
-                We utilise Amazon's Web Services to distribute your website in the cloud. AWS provides a solid and affordable platform to build applications for the web.
+                We have extensive knowledge on building cross-browser websites that look and feel just right. Sass helps us create amazing websites quicker than ever before. We work hard and efficiently - that's why sass suits!
             - title: Jekyll
               image: /assets/images/jekyll.jpg
               desc: >-
