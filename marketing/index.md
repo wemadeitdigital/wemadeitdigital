@@ -5,62 +5,61 @@ description: >-
     We have years of experience developing and maintaining websites of all kinds. Check out our portfolio and get in touch today!
 permalink: /marketing/
 image:
-  name: website-bg.jpg
-  path: /assets/images/website-bg.jpg
+  name: marketing.jpg
+  class: bg-up
+  path: /assets/images/marketing.jpg
 details:
     top:
         title: Marketing
         desc: >-
-            As of 2018 there are 4.2 billion internet users. Websites are a great way to bring in customers for your business/project. 
-            We can help you take an idea to reality. What's the point in waiting around and letting the years pass by? Get in touch today and let's
-            make this happen.
+            Our team can help with all your marketing needs from lead generation to manual task automation. We can help today!
     blocks: 
-        title: Static Websites are the way forward.
+        title: 
         cols: 
-            - title: Cheap
+            - title: Lead Generation
               desc: >-
-                They are cheap to host as there is no dedicated server for your website and are instead distributed in the cloud so wherever you are in the world you get equal access. 
-            - title: Security
+                We can use our expert marketing and technical skills to help your build advertising/marketing campaigns to help drive more customers to your business. We will help schedule social media posts, write / update website content and manage your public facing company appearance from a new perspective. 
+            - title: Manual Task Automation
               desc: >-
-               Don't be prone to hacking a choose a static website. With a static website you don't need to worry hackers taking down your website as there is nothing to take down. If your website goes down so has millions of others!
-            - title: Diversity
+                We can help turn manual task into effortless user friendly applications which do all the work for you. Our team has written countless scripts for fortune 500 companies saving their teams hours of wasted effort.
+            - title: Social Media Management
               desc: >-
-                We can help you turn any idea/business into a statically hosted website. Whether it's an online shop, blog or social network - we've got you covered.
+                Social media managment can be a daunting task. We will help you get the ball rolling in gaining traction through unique social media campaigns that will go viral and drive traffic to your startup/business.
     tech: 
-        title: Technology.
+        title: 
         cols: 
-            - title: Amazon Web Services
-              image: /assets/images/aws.png
+            - title: 
+              image: /assets/images/mailchimp.png
               desc: >-
-                We utilise Amazon's Web Services to distribute your website in the cloud. AWS provides a solid and affordable platform to build applications for the web.
-            - title: Jekyll
-              image: /assets/images/jekyll.jpg
+                We use mailchimp help create impacting social campaigns whether it involves email, social ads or newsletters.
+            - title: 
+              image: /assets/images/buffer.png
               desc: >-
-               Jekyll is an open source static website generator. It is perfect for building advanced static websites and themes which means you can have as much flexiblity as you want.
-            - title: CSS3
-              image: /assets/images/css3.png
-              desc: >-
-                We have vast knowledge of creating slick and modern user interfaces for web applications. Do you have something on paper or in your head that you want to transfer to the web? We can help.
-            - title: Javascript
-              image: /assets/images/js.png
+                Buffer let's us schedule posts across all your social media accounts so you can sit back and relax whilst watching your business grow.
+            - title: 
+              image: /assets/images/google-analytics.png
               desc: >- 
-                Javascript is being pushed further and further each year with more frameworks using javascript as their core component. We can build your website using Angular, NodeJS or JQuery.
-    portfolio:
-        title: Portfolio 
-        cols:
-            - title: Jekylly
-              image: /assets/images/jekylly.png
-              url: http://jekylly.com
+                Google Analytics is a powerful analytics platform that provides us an insight into your customers behaviour when using your website/app. We can use this to improve end-user experience and find out how customers found your product so we can help you do more of that!
+            - title: 
+              image: /assets/images/python.png
               desc: >-
-                Jekylly is a community driven tutorial hub for building Jekyll websites.
-            - title: Howard Rotavator Spares
-              image: /assets/images/hrs.png
-              url: http://howard-rotavator-spares.com
-              desc: >-
-                Howard Rotavator Spares is an online shop that sells new/used rotavator parts.
-            - title: The Craft Basket
-              image: /assets/images/craft-basket.png
-              url: http://thecraftbasket.co.uk/
-              desc: >-
-                The Craft Basket is a family run business offering a variety of knitting/sewing products and more.
+                We are experts at hacking together automated solutions to your manual and time consuming tasks with Python. We will help prevent you from going insane and repeating the same task over and over - so get in contact!
+    # portfolio:
+    #     title: Portfolio 
+    #     cols:
+    #         - title: Jekylly
+    #           image: /assets/images/jekylly.png
+    #           url: http://jekylly.com
+    #           desc: >-
+    #             Jekylly is a community driven tutorial hub for building Jekyll websites.
+    #         - title: Howard Rotavator Spares
+    #           image: /assets/images/hrs.png
+    #           url: http://howard-rotavator-spares.com
+    #           desc: >-
+    #             Howard Rotavator Spares is an online shop that sells new/used rotavator parts.
+    #         - title: The Craft Basket
+    #           image: /assets/images/craft-basket.png
+    #           url: http://thecraftbasket.co.uk/
+    #           desc: >-
+    #             The Craft Basket is a family run business offering a variety of knitting/sewing products and more.
 ---
