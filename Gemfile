@@ -9,6 +9,7 @@ group :jekyll_plugins do
   gem 'jekyll-assets', '~> 3.0.12'
   gem 'therubyracer'
   gem 'jekyll-seo-tag'
+  gem 'jekyll-paginate-v2'
   gem 'minima'
   gem 'uglifier'
   gem 'jekyll-tidy' 

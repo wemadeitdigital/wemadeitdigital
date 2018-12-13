@@ -1,15 +1,15 @@
 ---
 layout: page-extended
-title: Website Design
+title: Website Refresh & Updates
 description: >-
     We have expert knowledge when it comes to making websites interactive and feel modern, clean and crip. Have an design - we can put it on the web! Don't worry if not we will put you in touch with our graphics designers and help you work something out.
-permalink: /websites/design/
+permalink: /websites/updates/
 image:
   name: website-bg.jpg
   path: /assets/images/website-bg.jpg
 details:
     top:
-        title: Website Design
+        title: Website Refresh & Updates
         desc: >-
             We have expert knowledge when it comes to making websites interactive and feel modern, clean and crip. Have an design - we can put it on the web! Don't worry if not we will put you in touch with our graphics designers and help you work something out.
     blocks: 

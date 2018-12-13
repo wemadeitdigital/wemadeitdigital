@@ -15,7 +15,7 @@ seo:
 ---
 <div class="row">
 <div class="col-sm-4 text-center">
-    <img class="img-fluid lazyload team" src="/assets/images/avatar1.png" 
+    <img class="img-fluid lazyload team" src="/assets/images/avatar-svg-3.png" 
     data-src="" alt="Team member 1"/>
     <h3>Graphics Designer</h3>
     <p>
@@ -24,7 +24,7 @@ seo:
     </p>
 </div>
 <div class="col-sm-4 text-center">
-    <img class="img-fluid lazyload team" src="/assets/images/avatar1.png" 
+    <img class="img-fluid lazyload team" src="/assets/images/avatar-svg-2.png" 
     data-src="" alt="Team member 1"/>
     <h3>Web App Developer</h3>
     <p>
@@ -32,7 +32,7 @@ seo:
     </p>
 </div>
 <div class="col-sm-4 text-center">
-    <img class="img-fluid lazyload team" src="/assets/images/avatar2.png" 
+    <img class="img-fluid lazyload team" src="/assets/images/avatar.png" 
     data-src="" alt="Team member 1"/>
     <h3>Full Stack Developer</h3>
     <p>
@@ -41,7 +41,7 @@ seo:
 </div>
 
 <div class="col-sm-4 text-center">
-    <img class="img-fluid lazyload team" src="/assets/images/avatar1.png" 
+    <img class="img-fluid lazyload team" src="/assets/images/avatar-svg-4.png" 
     data-src="" alt="Team member 1"/>
     <h3>Graphics Designer</h3>
     <p>
@@ -50,7 +50,7 @@ seo:
     </p>
 </div>
 <div class="col-sm-4 text-center">
-    <img class="img-fluid lazyload team" src="/assets/images/avatar1.png" 
+    <img class="img-fluid lazyload team" src="/assets/images/avatar-svg-5.png" 
     data-src="" alt="Team member 1"/>
     <h3>Business Consultant</h3>
     <p>

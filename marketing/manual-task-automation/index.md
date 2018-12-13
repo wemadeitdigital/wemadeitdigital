@@ -1,15 +1,15 @@
 ---
 layout: page-extended
-title: Website Design
+title: Manual Task Automation
 description: >-
     We have expert knowledge when it comes to making websites interactive and feel modern, clean and crip. Have an design - we can put it on the web! Don't worry if not we will put you in touch with our graphics designers and help you work something out.
-permalink: /websites/design/
+permalink: /marketing/manual-task-automation/
 image:
   name: website-bg.jpg
   path: /assets/images/website-bg.jpg
 details:
     top:
-        title: Website Design
+        title: Manual Task Automation
         desc: >-
             We have expert knowledge when it comes to making websites interactive and feel modern, clean and crip. Have an design - we can put it on the web! Don't worry if not we will put you in touch with our graphics designers and help you work something out.
     blocks: 

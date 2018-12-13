@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Hello!"
+date:   2018-12-12 20:00:55 +1300
+categories: blog
+description: >-
+  Hello welcome to our new blog.
+image:
+  path: /assets/images/about-bg.jpg
+---
+Welcome to our new blog..
