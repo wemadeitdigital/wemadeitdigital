@@ -32,25 +32,25 @@ details:
             - title: Training
               desc: >-
                 We can help you turn any idea/business into a statically hosted website. Whether it's an online shop, blog or social network - we've got you covered.
-    tech: 
-        title: 
-        cols: 
-            - title: 
-              image: /assets/images/sass.png
-              desc: >-
-                We have extensive knowledge on building cross-browser websites that look and feel just right. Sass helps us create amazing websites quicker than ever before. We work hard and efficiently - that's why sass suits!
-            - title: 
-              image: /assets/images/jekyll.jpg
-              desc: >-
-               Jekyll is an open source static website generator. It is perfect for building advanced static websites and themes which means you can have as much flexiblity as you want.
-            - title: 
-              image: /assets/images/css3.png
-              desc: >-
-                We have vast knowledge of creating slick and modern user interfaces for web applications. Do you have something on paper or in your head that you want to transfer to the web? We can help.
-            - title: 
-              image: /assets/images/js.png
-              desc: >- 
-                Javascript is being pushed further and further each year with more frameworks using javascript as their core component. We can build your website using Angular, NodeJS or JQuery.
+    # tech: 
+    #     title: 
+    #     cols: 
+    #         - title: 
+    #           image: /assets/images/sass.png
+    #           desc: >-
+    #             We have extensive knowledge on building cross-browser websites that look and feel just right. Sass helps us create amazing websites quicker than ever before. We work hard and efficiently - that's why sass suits!
+    #         - title: 
+    #           image: /assets/images/jekyll.jpg
+    #           desc: >-
+    #            Jekyll is an open source static website generator. It is perfect for building advanced static websites and themes which means you can have as much flexiblity as you want.
+    #         - title: 
+    #           image: /assets/images/css3.png
+    #           desc: >-
+    #             We have vast knowledge of creating slick and modern user interfaces for web applications. Do you have something on paper or in your head that you want to transfer to the web? We can help.
+    #         - title: 
+    #           image: /assets/images/js.png
+    #           desc: >- 
+    #             Javascript is being pushed further and further each year with more frameworks using javascript as their core component. We can build your website using Angular, NodeJS or JQuery.
     # portfolio:
     #     title: Portfolio 
     #     cols:
