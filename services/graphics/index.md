@@ -1,44 +1,46 @@
 ---
 layout: page-extended
-title: Social Media Management
+title: Graphics
 description: >-
-    We have expert knowledge when it comes to making websites interactive and feel modern, clean and crip. Have an design - we can put it on the web! Don't worry if not we will put you in touch with our graphics designers and help you work something out.
-permalink: /marketing/social-media/
+    Graphics are vital part of your brand. We will work with you to develop brand guidlines, logos, marketing graphics and more.
+permalink: /services/graphics/
 image:
-  name: website-bg.jpg
-  path: /assets/images/website-bg.jpg
+  name: graphic-design.jpg
+  class: bg-up
+  path: /assets/images/graphic-design.jpg
 details:
     top:
-        title: Social Media Management
+        title: Graphics
         desc: >-
-            We have expert knowledge when it comes to making websites interactive and feel modern, clean and crip. Have an design - we can put it on the web! Don't worry if not we will put you in touch with our graphics designers and help you work something out.
+            Graphics are vital part of your brand. We will work with you to develop brand guidlines, logos, marketing graphics and more.
     blocks: 
+        title:
         cols: 
-            - title: CSS3 / Sass
+            - title: Pixel perfect
               desc: >-
-                We have extensive knowledge on building cross-browser websites that look and feel just right. Sass helps us create amazing websites quicker than ever before. We work hard and efficiently - that's why sass suits!
-            - title: Security
+                We take pride in designing your brand. We'll ensure that there are no mistakes so that, no matter the scale, your brand will always be the best. 
+            - title: Multiple Revisions
               desc: >-
-               Don't be prone to hacking a choose a static website. With a static website you don't need to worry hackers taking down your website as there is nothing to take down. If your website goes down so has millions of others!
-            - title: Diversity
+               We won't just design your brand for you we will work alongside you to get your brand where it needs to be - at the top.
+            - title: 
               desc: >-
                 We can help you turn any idea/business into a statically hosted website. Whether it's an online shop, blog or social network - we've got you covered.
     tech: 
         title: Technology.
         cols: 
-            - title: 
-              image: /assets/images/sass.png
+            - title: Amazon Web Services
+              image: /assets/images/aws.png
               desc: >-
-                We have extensive knowledge on building cross-browser websites that look and feel just right. Sass helps us create amazing websites quicker than ever before. We work hard and efficiently - that's why sass suits!
-            - title: 
+                We utilise Amazon's Web Services to distribute your website in the cloud. AWS provides a solid and affordable platform to build applications for the web.
+            - title: Jekyll
               image: /assets/images/jekyll.jpg
               desc: >-
                Jekyll is an open source static website generator. It is perfect for building advanced static websites and themes which means you can have as much flexiblity as you want.
-            - title: 
+            - title: CSS3
               image: /assets/images/css3.png
               desc: >-
                 We have vast knowledge of creating slick and modern user interfaces for web applications. Do you have something on paper or in your head that you want to transfer to the web? We can help.
-            - title: 
+            - title: Javascript
               image: /assets/images/js.png
               desc: >- 
                 Javascript is being pushed further and further each year with more frameworks using javascript as their core component. We can build your website using Angular, NodeJS or JQuery.
