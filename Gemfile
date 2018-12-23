@@ -13,4 +13,5 @@ group :jekyll_plugins do
   gem 'minima'
   gem 'uglifier'
   gem 'jekyll-tidy' 
+  gem 'rouge' 
 end

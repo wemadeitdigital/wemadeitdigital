@@ -130,6 +130,7 @@ DEPENDENCIES
   jekyll-seo-tag
   jekyll-tidy
   minima
+  rouge
   therubyracer
   uglifier
 
