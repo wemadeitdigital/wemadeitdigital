@@ -3,6 +3,7 @@ layout: post
 title: 'Implementing HTTP/2 push features with Jekyll sites'
 date:   2018-12-22 20:00:55 +1300
 categories: blog
+comments: true
 description: >-
   In this blog post we will teach you how to easily implement http/2 push features to reduce load time of vital site assets and improve overall experience for end-users visiting your site.
 image:

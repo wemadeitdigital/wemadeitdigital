@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Setting up a Static AWS hosted website without moving your domain to Route53"
-date:   2018-12-21 20:00:55 +1300
+date:   2018-12-29 20:00:55 +1300
 future: true
 unpublished: true
 categories: blog
