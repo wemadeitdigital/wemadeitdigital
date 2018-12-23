@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://wemadeit.digital" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
+highlighter: rouge
 # Jekyll Pagination V2 Configuration
 pagination:
     permalink: '/:num/'
