@@ -363,8 +363,9 @@ img.img-fluid.team.lazyloaded {
 }
 .blog-item img {
     height: 250px;
-    object-fit:cover;
+    object-fit: cover;
     background-color: #f2f2f2;
+    width: 100%;
 }
 .blog-item h3 {
     position: relative;
