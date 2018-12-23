@@ -6,6 +6,7 @@ font-weight: 400;
 src: local('Dosis Regular'), local('Dosis-Regular'), url(https://fonts.gstatic.com/s/dosis/v7/HhyaU5sn9vOmLzlmC_W6EQ.woff2) format('woff2');
 unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
+
 /* latin */
 @font-face {
 font-family: 'Dosis';
@@ -14,8 +15,17 @@ font-weight: 400;
 src: local('Dosis Regular'), local('Dosis-Regular'), url(https://fonts.gstatic.com/s/dosis/v7/HhyaU5sn9vOmLzloC_U.woff2) format('woff2');
 unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+::-moz-selection { background: #f45b6c; }
+::selection { background: #e43d87; }
+
 .padded {
     padding: 50px 15px;
+}
+section.container ul {
+    font-size: 20px;
+}
+section.container p {
+    font-size: 22px;
 }
 img.navbar-brand {
     height: 40px;
@@ -50,7 +60,8 @@ div#main-container {
     margin-top: 56px;
 }
 #wrapper .site-footer {
-    background-color: $gray-800;
+    background-color: #212528;
+    height: 100%;
 }
 #wrapper .site-footer {
     position: relative;
@@ -88,7 +99,6 @@ div#main-container {
     background: #212529;
     padding: 20px;
     color: white;
-    opacity: .7;
     text-align: center;
     margin: 0 0 0 0;
     cursor: pointer;
@@ -342,6 +352,9 @@ img.img-fluid.team.lazyloaded {
 }
 
 //blog
+.highlighter-rouge > div {
+    position: relative;
+}
 .blog-item {
     background-color: #f2f2f2;
     border: 1px solid black;
@@ -356,4 +369,17 @@ img.img-fluid.team.lazyloaded {
 .blog-item h3 {
     position: relative;
     color:black;
+}
+.highlighter-rouge button.btn {
+    position: absolute;
+    bottom: 0px;
+    z-index: 999999;
+    right: 0px;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+}
+.highlighter-rouge button:focus {outline:0 !important;}
+.highlighter-rouge button.btn:hover {
+    background-color:#212529;
+    color:white;
 }
